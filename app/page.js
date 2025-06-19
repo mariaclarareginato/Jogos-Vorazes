@@ -8,22 +8,19 @@ export default function Home() {
 
 
  {/* Vídeo */}
-<section>
-  <div className="flex justify-center items-center min-h-screen bg-black p-6">
-    <div className="relative w-full max-w-4xl" style={{ paddingTop: '56.25%' }}>
 
-  <iframe
-  src="https://www.youtube.com/embed/D2dsl4DEAWE?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&fs=0"
-  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg pointer-events-none"
-  frameBorder="0"
-  allow="autoplay; encrypted-media"
-  allowFullScreen
-></iframe>
-
-
+<section className="bg-black py-12">
+  <div className="flex justify-center items-center min-h-screen px-4">
+    <div className="w-full max-w-4xl relative rounded-2xl shadow-lg overflow-hidden">
+      <img
+        src="hg.gif"
+        alt="GIF de Jogos Vorazes"
+        className="w-full h-auto object-cover rounded-2xl"
+      />
     </div>
   </div>
 </section>
+
 
     </>
   );
