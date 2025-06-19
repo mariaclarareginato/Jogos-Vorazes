@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+
+/* Imagem e texto sobre a autora */
+
+/* Container da seção, para centralizar e limitar a largura */
+
+.autora-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: white;          
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Imagem da autora */
+.imga {
+  display: block;
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Título da autora */
+.tituloa {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Texto da biografia */
+.textoa {
+  font-size: 1rem;
+  text-align: justify;
+  white-space: pre-line; 
+  letter-spacing: 0.02em;
+}
+
+/* Quebras de linha  */
+.textoa br {
+  content: "";
+  margin-bottom: 12px;
+  display: block;
+}
