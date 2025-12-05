@@ -1,8 +1,10 @@
-# Site sobre a quintologia literária e cinematográfica **Jogos Vorazes**
+<div align="center"r>
 
+# Site sobre a quintologia literária e cinematográfica **Jogos Vorazes**
 
 ![readme](https://github.com/user-attachments/assets/7d00c488-489b-42a0-b902-7f2fb97567e6)
 
+</div>
 
 ---
 
@@ -10,7 +12,7 @@
 
 Criar um ambiente digital onde:
 
-- O usuário pode saber mais sobre a saga de livros e filmes **Jogos Vorazes**.
+- O usuário possa saber mais sobre a saga de livros e filmes **Jogos Vorazes**.
 
 ---
 
