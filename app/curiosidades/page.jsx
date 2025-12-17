@@ -3,7 +3,7 @@ import './curiosidades.css'
 export default function Curiosidades() {
   return (
     <>
-
+    <div className='curiosidades'>
     <main className="curiosidades-container">
       <h1>Curiosidades sobre Jogos Vorazes</h1>
 
@@ -40,6 +40,7 @@ export default function Curiosidades() {
         <li><strong>Armadura e figurino:</strong> Os trajes de Katniss foram cuidadosamente desenhados para refletir a evolução da personagem.</li>
       </ul>
     </main>
+    </div>
 
 
  </>

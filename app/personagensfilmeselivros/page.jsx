@@ -49,6 +49,7 @@ export default function Personagensfilmeselivros() {
     <img src="filmes/f3.png" className="img" alt="Filme 3" />
     <img src="filmes/f4.png" className="img" alt="Filme 4" />
     <img src="filmes/f5.png" className="img" alt="Filme 5" />
+    <img src="filmes/f6.png" className="img" alt="Filme 6" />
   </div>
 </section>
 <br></br>

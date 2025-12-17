@@ -1,12 +1,8 @@
 import './autora.css'
 
 export default function Autora() {
+  
   return (
-    <>
-
-{/* Informações Autora */}
-
-<section>
 
 <div className="autora-container">
 <img className='imga' src='sc.png'></img>
@@ -30,7 +26,7 @@ envolvente, que mistura um triângulo amoroso com críticas sociais profundas so
 </p>
 </div>
 
-</section>
- </>
+
+
   );
 }
