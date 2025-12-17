@@ -5,7 +5,7 @@ export default function Autora() {
   return (
 
 <div className="autora-container">
-<img className='imga' src='sc.png'></img>
+<img className='imga' src='sc.png' alt="Suzanne Collins"></img>
 
 <h1 className='tituloa'>Suzanne Collins</h1>
 
