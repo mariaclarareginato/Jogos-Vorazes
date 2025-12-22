@@ -9,7 +9,7 @@ export default function Personagensfilmeselivros() {
 
 {/* Personagens */}
 <section className="personagens">
-  <h1 className="titulo">Alguns Personagens:</h1>
+  <h1 className="titulo">Personagens importantes:</h1>
   <div className="galeria">
     <div className="item">
       <img src="personagens/p1.png" className="imgp" alt="Katniss" />
@@ -41,6 +41,7 @@ export default function Personagensfilmeselivros() {
 <br></br>
 
 {/* Filmes */}
+<br></br>
 <section className="filmes">
   <h1 className="titulo">Filmes:</h1>
   <div className="galeria">
@@ -55,6 +56,7 @@ export default function Personagensfilmeselivros() {
 <br></br>
 
 {/* Livros */}
+<br></br>
 <section className="livros">
   <h1 className="titulo">Livros:</h1>
   <div className="galeria">

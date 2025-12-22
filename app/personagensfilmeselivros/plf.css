@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   padding: 0 20px;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .img {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
@@ -52,8 +52,8 @@ section {
 .imgp {
   width: auto;  
   height: auto;     
-  height: 170px;       
-  max-width: 200px;   
+  height: 160px;       
+  max-width: 180px;   
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   object-fit: cover;   
