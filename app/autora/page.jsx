@@ -5,9 +5,10 @@ export default function Autora() {
   return (
 
 <div className="autora-container">
-<img className='imga' src='sc.png' alt="Suzanne Collins"></img>
+
 
 <h1 className='tituloa'>Suzanne Collins</h1>
+<div className="separator"></div>
 
 <p className='textoa'>
 Desde 1991, Suzanne Collins tem se dedicado a escrever para a televisão infantil. Ela trabalhou em várias produções da Nickelodeon, incluindo o sucesso indicado ao Emmy "Clarissa Explains It All" e "The Mystery Files of Shelby Woo". Para o público pré-escolar, escreveu diversas histórias para o também indicado ao Emmy "Little Bear and Oswald". Além disso, coescreveu o especial de Natal aclamado pela crítica "Santa, Baby!" da Rankin/Bass. Mais recentemente, foi roteirista-chefe de "Clifford's Puppy Days", da Scholastic Entertainment.<br /><br />

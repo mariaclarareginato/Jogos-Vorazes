@@ -1,3 +1,82 @@
-body {
-    background-color: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #0b0b0b;
+  font-family: "Georgia", serif;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* BACKGROUND */
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55) contrast(1.1);
+}
+
+/* OVERLAY */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.85)
+  );
+}
+
+/* CONTENT */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* TITLE */
+.titulo {
+  color: #fff;
+  font-size: clamp(2.2rem, 6vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 8px 25px rgba(240, 159, 39, 0.9),
+    0 0 35px rgb(255, 136, 0);
+}
+
+/* ICON */
+.logo-icone {
+  width: 200px;
+  margin-top: 25px;
+  opacity: 0.9;
+  transition: transform .35s ease, opacity .35s ease;
+}
+
+.logo-icone:hover {
+  transform: scale(1.08);
+  opacity: 1;
 }

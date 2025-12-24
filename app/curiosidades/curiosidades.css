@@ -1,42 +1,52 @@
 .curiosidades {
-  padding: 4rem 1.5rem; /* lateral fluida */
+  padding: 4rem 1.5rem; 
 }
 
 /* Container principal */
 .curiosidades-container {
-  max-width: 800px;
-  margin: 0 auto; /* centraliza */
+  width: auto;
+  margin: 0 auto; 
   padding: 2.5rem;
   background-color: #121212;
   color: #f0f0f0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
+
 /* Título */
 .curiosidades-container h1 {
   text-align: center;
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
-  color: #d12212;
-  text-shadow: 0 0 5px #ed4b00e4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.0rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  
 }
+
+.separator {
+  width: 80%;
+  height: 6px;
+  margin: 40px auto;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #76f350, #f78401); /* verde → laranja */
+}
+
 
 /* Lista */
 .curiosidades-list {
   list-style-type: disc;
   padding-left: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
 .curiosidades-list li {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
 .curiosidades-list li strong {
-  color: #e21806;
+  font-size: x-large;
 }
 
 /* ===================== */
@@ -75,7 +85,7 @@
   }
 
   .curiosidades-list {
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     padding-left: 1.2rem;
   }
 }

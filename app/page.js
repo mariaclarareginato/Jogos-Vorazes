@@ -1,28 +1,15 @@
-import './home.css'
+import "./home.css";
 
 export default function Home() {
   return (
-    <>
-     
+    <section className="hero">
+      <img className="bg" src="hg.png" alt="Jogos Vorazes" />
 
+      <div className="hero-content">
+        <h1 className="titulo">Jogos Vorazes</h1>
 
-
- {/* Vídeo */}
-
-<section className="bg-black py-12">
-  <div className="flex justify-center items-center min-h-screen px-4">
-    <div className="w-full max-w-4xl relative rounded-2xl shadow-lg overflow-hidden">
-      <img
-        src="hg.gif"
-        alt="GIF de Jogos Vorazes"
-        className="w-full h-auto object-cover rounded-2xl"
-      />
-    </div>
-  </div>
-</section>
-
-
-    </>
+        <img className="logo-icone" src="icon.png" alt="Ícone" />
+      </div>
+    </section>
   );
 }
-

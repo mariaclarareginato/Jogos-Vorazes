@@ -28,16 +28,25 @@ body {
 /* Título */
 .tituloa {
   text-align: center;
-  font-size: 2.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.0rem;
   font-weight: 700;
   margin-bottom: 25px;
 }
 
+.separator {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #76f350, #f78401); /* verde → laranja */
+}
+
 /* Texto */
 .textoa {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
   letter-spacing: 0.02em;
+  margin-top: 40px;
 }
 
 /* Espaçamento entre parágrafos */

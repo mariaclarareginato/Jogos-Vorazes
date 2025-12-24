@@ -1,0 +1,21 @@
+/* Navbar */
+.footer {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 30px 30px;
+  gap: 30px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+/* Marcas */
+.marcas {
+
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

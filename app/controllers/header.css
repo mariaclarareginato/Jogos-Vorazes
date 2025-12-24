@@ -1,17 +1,17 @@
-
 /* Navbar */
-
 .navbar {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;  
+  flex-wrap: nowrap;    
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
   padding: 10px 20px;
   background-color: #111;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+/* Logos */
 .logo {
   height: 50px;
   width: 50px;
@@ -23,4 +23,3 @@
 .logo:hover {
   transform: scale(1.1);
 }
-
