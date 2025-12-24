@@ -12,7 +12,7 @@ export default function Falas() {
         <div className="cards livros">
           <div className="card">
             <span className="tag">Livro — Jogos Vorazes</span>
-            <p className="frase">“Eu me voluntário! Eu me ofereço como tributo!”</p>
+            <p className="frase">“Eu me voluntario! Eu me ofereço como tributo!”</p>
             <p className="personagem">— Katniss Everdeen</p>
           </div>
 
