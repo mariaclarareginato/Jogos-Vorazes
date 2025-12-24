@@ -2,7 +2,7 @@
 
 # Site sobre a quintologia literária e cinematográfica **Jogos Vorazes**
 
-![readme](https://github.com/user-attachments/assets/7d00c488-489b-42a0-b902-7f2fb97567e6)
+<img width="131" height="203" alt="image" src="https://github.com/user-attachments/assets/2f93c395-e3d8-48b9-919d-c0fe682a5b30" />
 
 </div>
 
